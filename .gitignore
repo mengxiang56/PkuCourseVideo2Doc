@@ -1,0 +1,93 @@
+# 本机账号、登录状态、课程网址和下载结果
+/data/
+/output/
+/.private/
+/downloads/
+/recordings/
+/transcripts/
+
+# 环境变量、密钥与浏览器认证导出
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+*.p12
+*.pfx
+cookies.txt
+cookies*.json
+*storage_state*.json
+*storage-state*.json
+*.har
+
+# Python 运行环境与缓存
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.Python
+
+# 打包产物与随包运行组件
+/build/
+/release/
+/dist/
+/_internal/
+/bin/
+*.exe
+*.dll
+*.pyd
+*.msi
+*.zip
+*.7z
+*.rar
+*.whl
+# 保留 course_transcript.spec、build_release.py 和 assets/ 中的图标源码。
+
+# 课程音视频及导出的文字稿
+*.mp4
+*.mkv
+*.webm
+*.mov
+*.m4v
+*.avi
+*.wmv
+*.flv
+*.mpeg
+*.mpg
+*.3gp
+*.mp3
+*.m4a
+*.wav
+*.flac
+*.aac
+*.ogg
+*.doc
+*.docx
+*.srt
+*.vtt
+
+# 日志、测试报告和临时文件
+*.log
+*.tmp
+*.temp
+*.bak
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# 本机编辑器与 Windows 文件
+.idea/
+.vscode/
+*.code-workspace
+*.swp
+*.swo
+Thumbs.db
+Desktop.ini
+.DS_Store

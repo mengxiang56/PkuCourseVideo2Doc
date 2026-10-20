@@ -1,0 +1,4 @@
+playwright==1.64.0
+yt-dlp==2026.8.19
+requests==2.34.2
+pycryptodomex==3.24.1
